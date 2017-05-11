@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController@property (strong, nonatomic) NSMutableArray *arrayData;
 
+- (IBAction)generateQRCode:(id)sender;
 
+- (IBAction)scanQRCode:(id)sender;
 @end
 

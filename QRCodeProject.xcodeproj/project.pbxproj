@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2925B87C1E8CFE5C007D2B3A /* adhar.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2925B8791E8CFE5C007D2B3A /* adhar.xml */; };
+		2925B87D1E8CFE5C007D2B3A /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925B87B1E8CFE5C007D2B3A /* XMLReader.m */; };
+		2925B8801E8D0382007D2B3A /* AdharViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2925B87F1E8D0382007D2B3A /* AdharViewController.m */; };
 		29BDFD181E0D2AC5004B84BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD171E0D2AC5004B84BD /* main.m */; };
 		29BDFD1B1E0D2AC5004B84BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD1A1E0D2AC5004B84BD /* AppDelegate.m */; };
 		29BDFD1E1E0D2AC5004B84BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD1D1E0D2AC5004B84BD /* ViewController.m */; };
@@ -15,6 +18,12 @@
 		29BDFD261E0D2AC5004B84BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29BDFD241E0D2AC5004B84BD /* LaunchScreen.storyboard */; };
 		29BDFD311E0D2AC5004B84BD /* QRCodeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD301E0D2AC5004B84BD /* QRCodeProjectTests.m */; };
 		29BDFD3C1E0D2AC5004B84BD /* QRCodeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD3B1E0D2AC5004B84BD /* QRCodeProjectUITests.m */; };
+		29BDFD4B1E0D2C1C004B84BD /* QRGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD4A1E0D2C1C004B84BD /* QRGenerator.m */; };
+		29BDFD511E0D3027004B84BD /* CEO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BDFD4D1E0D3027004B84BD /* CEO.jpg */; };
+		29BDFD521E0D3027004B84BD /* COO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BDFD4E1E0D3027004B84BD /* COO.jpg */; };
+		29BDFD531E0D3027004B84BD /* CTO.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BDFD4F1E0D3027004B84BD /* CTO.jpg */; };
+		29BDFD541E0D3027004B84BD /* Manager.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 29BDFD501E0D3027004B84BD /* Manager.jpg */; };
+		29BDFD571E0D4238004B84BD /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BDFD561E0D4238004B84BD /* QRCodeReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2925B8791E8CFE5C007D2B3A /* adhar.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = adhar.xml; sourceTree = "<group>"; };
+		2925B87A1E8CFE5C007D2B3A /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		2925B87B1E8CFE5C007D2B3A /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		2925B87E1E8D0382007D2B3A /* AdharViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdharViewController.h; sourceTree = "<group>"; };
+		2925B87F1E8D0382007D2B3A /* AdharViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdharViewController.m; sourceTree = "<group>"; };
 		29BDFD131E0D2AC5004B84BD /* QRCodeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BDFD171E0D2AC5004B84BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29BDFD191E0D2AC5004B84BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,14 @@
 		29BDFD371E0D2AC5004B84BD /* QRCodeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29BDFD3B1E0D2AC5004B84BD /* QRCodeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeProjectUITests.m; sourceTree = "<group>"; };
 		29BDFD3D1E0D2AC5004B84BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BDFD491E0D2C1C004B84BD /* QRGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRGenerator.h; sourceTree = "<group>"; };
+		29BDFD4A1E0D2C1C004B84BD /* QRGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRGenerator.m; sourceTree = "<group>"; };
+		29BDFD4D1E0D3027004B84BD /* CEO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CEO.jpg; sourceTree = "<group>"; };
+		29BDFD4E1E0D3027004B84BD /* COO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COO.jpg; sourceTree = "<group>"; };
+		29BDFD4F1E0D3027004B84BD /* CTO.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CTO.jpg; sourceTree = "<group>"; };
+		29BDFD501E0D3027004B84BD /* Manager.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Manager.jpg; sourceTree = "<group>"; };
+		29BDFD551E0D4238004B84BD /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		29BDFD561E0D4238004B84BD /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +103,9 @@
 		29BDFD0A1E0D2AC5004B84BD = {
 			isa = PBXGroup;
 			children = (
+				2925B87E1E8D0382007D2B3A /* AdharViewController.h */,
+				2925B87F1E8D0382007D2B3A /* AdharViewController.m */,
+				29BDFD4C1E0D3012004B84BD /* Images */,
 				29BDFD151E0D2AC5004B84BD /* QRCodeProject */,
 				29BDFD2F1E0D2AC5004B84BD /* QRCodeProjectTests */,
 				29BDFD3A1E0D2AC5004B84BD /* QRCodeProjectUITests */,
@@ -101,11 +126,18 @@
 		29BDFD151E0D2AC5004B84BD /* QRCodeProject */ = {
 			isa = PBXGroup;
 			children = (
+				2925B8791E8CFE5C007D2B3A /* adhar.xml */,
+				2925B87A1E8CFE5C007D2B3A /* XMLReader.h */,
+				2925B87B1E8CFE5C007D2B3A /* XMLReader.m */,
 				29BDFD191E0D2AC5004B84BD /* AppDelegate.h */,
 				29BDFD1A1E0D2AC5004B84BD /* AppDelegate.m */,
 				29BDFD1C1E0D2AC5004B84BD /* ViewController.h */,
 				29BDFD1D1E0D2AC5004B84BD /* ViewController.m */,
 				29BDFD1F1E0D2AC5004B84BD /* Main.storyboard */,
+				29BDFD491E0D2C1C004B84BD /* QRGenerator.h */,
+				29BDFD4A1E0D2C1C004B84BD /* QRGenerator.m */,
+				29BDFD551E0D4238004B84BD /* QRCodeReader.h */,
+				29BDFD561E0D4238004B84BD /* QRCodeReader.m */,
 				29BDFD221E0D2AC5004B84BD /* Assets.xcassets */,
 				29BDFD241E0D2AC5004B84BD /* LaunchScreen.storyboard */,
 				29BDFD271E0D2AC5004B84BD /* Info.plist */,
@@ -138,6 +170,17 @@
 				29BDFD3D1E0D2AC5004B84BD /* Info.plist */,
 			);
 			path = QRCodeProjectUITests;
+			sourceTree = "<group>";
+		};
+		29BDFD4C1E0D3012004B84BD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				29BDFD4D1E0D3027004B84BD /* CEO.jpg */,
+				29BDFD4E1E0D3027004B84BD /* COO.jpg */,
+				29BDFD4F1E0D3027004B84BD /* CTO.jpg */,
+				29BDFD501E0D3027004B84BD /* Manager.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +250,7 @@
 				TargetAttributes = {
 					29BDFD121E0D2AC5004B84BD = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 4WXHX2LK83;
 						ProvisioningStyle = Automatic;
 					};
 					29BDFD2B1E0D2AC5004B84BD = {
@@ -246,7 +290,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2925B87C1E8CFE5C007D2B3A /* adhar.xml in Resources */,
+				29BDFD531E0D3027004B84BD /* CTO.jpg in Resources */,
 				29BDFD261E0D2AC5004B84BD /* LaunchScreen.storyboard in Resources */,
+				29BDFD521E0D3027004B84BD /* COO.jpg in Resources */,
+				29BDFD511E0D3027004B84BD /* CEO.jpg in Resources */,
+				29BDFD541E0D3027004B84BD /* Manager.jpg in Resources */,
 				29BDFD231E0D2AC5004B84BD /* Assets.xcassets in Resources */,
 				29BDFD211E0D2AC5004B84BD /* Main.storyboard in Resources */,
 			);
@@ -274,7 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				29BDFD1E1E0D2AC5004B84BD /* ViewController.m in Sources */,
+				29BDFD571E0D4238004B84BD /* QRCodeReader.m in Sources */,
+				2925B8801E8D0382007D2B3A /* AdharViewController.m in Sources */,
 				29BDFD1B1E0D2AC5004B84BD /* AppDelegate.m in Sources */,
+				29BDFD4B1E0D2C1C004B84BD /* QRGenerator.m in Sources */,
+				2925B87D1E8CFE5C007D2B3A /* XMLReader.m in Sources */,
 				29BDFD181E0D2AC5004B84BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,9 +477,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = QRCodeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.QRCodeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.AdharCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -435,9 +489,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4WXHX2LK83;
 				INFOPLIST_FILE = QRCodeProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.QRCodeProject;
+				PRODUCT_BUNDLE_IDENTIFIER = NeoRays.AdharCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -507,6 +562,7 @@
 				29BDFD421E0D2AC5004B84BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29BDFD431E0D2AC5004B84BD /* Build configuration list for PBXNativeTarget "QRCodeProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +571,7 @@
 				29BDFD451E0D2AC5004B84BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29BDFD461E0D2AC5004B84BD /* Build configuration list for PBXNativeTarget "QRCodeProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +580,7 @@
 				29BDFD481E0D2AC5004B84BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

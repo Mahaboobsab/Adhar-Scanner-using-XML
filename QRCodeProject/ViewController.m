@@ -26,4 +26,14 @@
 }
 
 
+- (IBAction)generateQRCode:(id)sender {
+    
+    [self performSegueWithIdentifier:@"qrg" sender:self];
+}
+
+- (IBAction)scanQRCode:(id)sender {
+      [self performSegueWithIdentifier:@"qrs" sender:self];
+}
+
+
 @end
